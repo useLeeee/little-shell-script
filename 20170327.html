@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://www.pm25.in/beijing -->
+<html xmlns:wb="“http://open.weibo.com/wb”"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+<script type="text/javascript" src="./20170327_files/081b4ac340"></script><script src="./20170327_files/nr-1026.min.js.下载"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"081b4ac340","applicationID":"8697927","transactionName":"JlgPTERbXgldQBhURAxETlRfQlc6XFNDVA==","queueTime":0,"applicationTime":16,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PM25.in | 北京PM2.5及空气质量指数(AQI)</title>
+<meta content="北京PM2.5监测数据及空气质量指数(AQI)实时查询" name="description">
+<meta content="北京pm2.5,北京空气质量指数(aqi),北京空气污染指数" name="keywords">
+  
+  <meta name="author" content="主创：anson,Hello_蜡笔；友情支持：KevChen,铁骑Leap,koeylaoo,_幸福这一站,__JAS__,那个叫lee了个斌 ">
+  <link href="./20170327_files/application-32570e67636e03a26f6d5c2816025ddb.css" media="all" rel="stylesheet" type="text/css">
+  <script src="./20170327_files/application-a0c9d2532f0dc5ba8fcba803e2a385ad.js.下载" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param">
+<meta content="gW0ZK9SXWktaKZKZ3qy2lCKhYnokVOdw5mDaklnhylc=" name="csrf-token">
+  
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38933456-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <script src="./20170327_files/wb.js.下载" type="text/javascript" charset="utf-8">
+  </script>
+<script charset="UTF-8" src="./20170327_files/bundle.js.下载"></script><script charset="UTF-8" src="./20170327_files/iframeWidget.js.下载"></script></head>
+
+<body class="aqis_live_data"><iframe id="sina_anywhere_iframe" style="display: none;" src="./20170327_files/saved_resource.html"></iframe>
+  <!-- Navbar========================= -->
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <a type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collaps">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="http://www.pm25.in/"></a>
+          <div class="nav-collapse navbar-inverse-collaps collapse" style="height: 0px;">
+            <ul class="nav">
+              <li style="margin-top: 5px;">
+                <a href="http://www.pm25.in/">首页</a>
+              </li>
+              <li style="margin-top: 5px;">
+                <a href="http://www.pm25.in/rank">排行榜</a>
+              </li>
+              <li style="margin-top: 5px;">
+                <a href="http://www.pm25.in/api_doc">API文档</a>
+              </li>
+              <li style="margin-top: 5px;">
+                <a href="http://www.pm25.in/donate">赞助我们</a>
+              </li>
+              <li style="margin-top: 5px;">
+                <a href="http://www.pm25.in/sharer">创享者</a>
+              </li>
+              <li style="margin-top: 5px;">
+                <a href="http://www.pm25.in/about">关于</a>
+              </li>
+            </ul>
+          </div> <!-- end of .nav-collapse -->
+        </div> <!-- end of .navbar-inner -->
+      </div> <!-- end of .navbar -->
+    </div> <!-- end of .container -->
+  </div> <!-- end of .navbar-wrapper -->
+
+  <!-- Carousel=========================== -->
+  <!-- end of .carousel -->
+
+  <div class="container">
+    
+
+    <script type="text/javascript">
+      $(function () {
+          $('#history_chart').highcharts({
+              chart: {
+                  type: 'line',
+                  marginRight: 130,
+                  marginBottom: 60
+              },
+              title: {
+                  text: '北京 最近24小时空气质量指数(AQI)趋势',
+                  x: -20 //center
+              },
+              subtitle: {
+                  text: 'http://www.pm25.in',
+                  x: -20
+              },
+              credits: {
+                text: '数据更新时间：2017-03-27 19:00',
+                href: 'http://www.pm25.in',
+                position: {
+                  align: 'left',
+                  x: 20,
+                  y: -15,
+                  verticalAlign: 'bottom',
+                },
+                style: {
+                  color: '#AAA',
+                  font: '14px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif'
+                }
+              },
+              xAxis: {
+                categories: ["20时", "21时", "22时", "23时", "00时", "01时", "02时", "03时", "04时", "05时", "06时", "07时", "08时", "09时", "10时", "11时", "12时", "13时", "14时", "15时", "16时", "17时", "18时", "19时"],
+                labels: {
+                  style: {
+                    color: '#999',
+                    font: '12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif'
+                  }
+                } 
+              },
+              yAxis: {
+                  min: 0,
+                  max: 500,
+                  title: {
+                      text: '数据来源于国家环境保护部网站'
+                  },
+                  plotLines: [{
+                      value: 0,
+                      width: 1,
+                      color: '#808080'
+                  }]
+              },
+              plotOptions: {
+                line: {
+                    dataLabels: {
+                        enabled: true
+                    }
+                }
+              },
+              legend: {
+                  layout: 'vertical',
+                  align: 'right',
+                  verticalAlign: 'top',
+                  x: -10,
+                  y: 100,
+                  borderWidth: 0
+              },
+              series: [{
+                  name: 'AQI',
+                  data: [43,41,38,35,32,26,24,23,26,28,33,35,33,27,25,28,30,33,37,40,43,44,44,47],
+                  color: '#99CC66'
+              }]
+          });
+      });
+    </script>
+
+  <div class="span12 avg">
+    <div class="span11">
+      <div class="city_name">
+          <h2>北京</h2>
+      </div> <!-- end of .city_name -->
+      <div class="level">
+          <h4>
+            一级（优）
+          </h4>
+      </div> <!-- end of .level -->
+    </div> <!-- end of .span11 -->
+    
+    <div class="span11">
+      <div class="live_data_time">
+          <p>数据更新时间：2017-03-27 19:00:00</p>
+      </div> <!-- end of .live_data_time -->
+      <div class="live_data_unit">
+        数值单位：μg/m3(CO为mg/m3)
+      </div> <!-- end of live_data_unit -->
+    </div> <!-- end of .span11 -->
+
+    <div class="span12 data">
+        <div class="span1">
+          <div class="value">
+            47
+          </div>
+          <div class="caption">
+            AQI
+          </div>
+        </div>
+        <div class="span1">
+          <div class="value">
+            18
+          </div>
+          <div class="caption">
+            PM2.5/1h
+          </div>
+        </div>
+        <div class="span1">
+          <div class="value">
+            46
+          </div>
+          <div class="caption">
+            PM10/1h
+          </div>
+        </div>
+        <div class="span1">
+          <div class="value">
+            0.38
+          </div>
+          <div class="caption">
+            CO/1h
+          </div>
+        </div>
+        <div class="span1">
+          <div class="value">
+            25
+          </div>
+          <div class="caption">
+            NO2/1h
+          </div>
+        </div>
+        <div class="span1">
+          <div class="value">
+            77
+          </div>
+          <div class="caption">
+            O3/1h
+          </div>
+        </div>
+        <div class="span1">
+          <div class="value">
+            85
+          </div>
+          <div class="caption">
+            O3/8h
+          </div>
+        </div>
+        <div class="span1">
+          <div class="value">
+            2
+          </div>
+          <div class="caption">
+            SO2/1h
+          </div>
+        </div>
+        <div class="span1 more-city">
+          <div class="value">
+            <a href="http://www.pm25.in/">其他城市</a>
+          </div>
+        </div>
+    </div> <!-- end of .data -->
+
+    <div class="span12 caution">
+      <div class="primary_pollutant">
+          <p>首要污染物：
+            
+          </p>
+      </div> <!-- end of .primary_pollutant -->
+      <div class="affect">
+          <p>对健康影响情况：
+            空气质量令人满意,基本无空气污染
+          </p>
+      </div> <!-- end of .affect -->
+      <div class="action">
+          <p>建议采取的措施：
+            各类人群可正常活动
+          </p>
+      </div> <!-- end of .action -->
+    </div> <!-- end of .caution -->
+  </div> <!-- end of .avg -->
+
+  <div class="">
+    <div class="station">
+        <h3>12个监测点</h3>
+    </div>
+    <div class="share">
+      <script type="text/javascript" charset="utf-8">
+      (function(){
+        var _w = 106 , _h = 24;
+        var param = {
+          url:location.href,
+          type:'5',
+          count:'0', /**是否显示分享数，1显示(可选)*/
+          appkey:'3817881004', /**您申请的应用appkey,显示分享来源(可选)*/
+          title: '【北京空气质量】  AQI: 47;  PM2.5: 18;  空气质量: 优;  发布时间: 2017-03-27 19:00:00;  [建议采取措施]：各类人群可正常活动。   更多监测点数据 ', /**分享的文字内容(可选，默认为所在页面的title)*/
+          pic:'', /**分享图片的路径(可选)*/
+          ralateUid:'3243396780', /**关联用户的UID，分享微博会@该用户(可选)*/
+        language:'zh_cn', /**设置语言，zh_cn|zh_tw(可选)*/
+          rnd:new Date().valueOf()
+        }
+        var temp = [];
+        for( var p in param ){
+          temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+        }
+        document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')
+      })()
+      </script><iframe allowtransparency="true" frameborder="0" scrolling="no" src="./20170327_files/weiboshare.html" width="106" height="24"></iframe>
+    </div>
+    <div class="follow">
+      <wb:follow-button uid="3243396780" type="red_3" width="100%" height="24"><iframe src="./20170327_files/followbutton.html" width="100%" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></wb:follow-button>
+    </div>
+  </div>
+  <div class="table">
+    <table id="detail-data" class="table table-striped table-bordered table-condensed">
+      <thead>
+        <tr>
+          <th>监测点</th>
+          <th>AQI</th>
+          <th>空气质量<br>指数类别</th>
+          <th>首要污染物</th>
+          <th>PM2.5<br>细颗粒物</th>
+          <th>PM10<br>可吸入颗粒物</th>
+          <th>CO<br>一氧化碳</th>
+          <th>NO2<br>二氧化氮</th>
+          <th>O3<br>臭氧1小时平均</th>
+          <th class="O3_8h_dn">O3<br>臭氧8小时平均</th>
+          <th>SO2<br>二氧化硫</th>
+        </tr>
+      </thead>
+      <tbody>
+            <tr>
+              <td>万寿西宫</td>
+              <td>42</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>29</td>
+              <td>42</td>
+              <td>0.4</td>
+              <td>33</td>
+              <td>73</td>
+              <td class="O3_8h_dn">82</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>定陵</td>
+              <td>72</td>
+              <td>良</td>
+
+                  <td>颗粒物(PM10)</td>
+
+              <td>29</td>
+              <td>94</td>
+              <td>0.4</td>
+              <td>19</td>
+              <td>83</td>
+              <td class="O3_8h_dn">98</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>东四</td>
+              <td>49</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>22</td>
+              <td>49</td>
+              <td>0.4</td>
+              <td>28</td>
+              <td>94</td>
+              <td class="O3_8h_dn">41</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>天坛</td>
+              <td>36</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>11</td>
+              <td>36</td>
+              <td>0.4</td>
+              <td>27</td>
+              <td>77</td>
+              <td class="O3_8h_dn">93</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>农展馆</td>
+              <td>37</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>18</td>
+              <td>37</td>
+              <td>0.3</td>
+              <td>33</td>
+              <td>85</td>
+              <td class="O3_8h_dn">106</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>官园</td>
+              <td>54</td>
+              <td>良</td>
+
+                  <td>颗粒物(PM10)</td>
+
+              <td>11</td>
+              <td>57</td>
+              <td>0.5</td>
+              <td>2</td>
+              <td>48</td>
+              <td class="O3_8h_dn">84</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>海淀区万柳</td>
+              <td>29</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>20</td>
+              <td>26</td>
+              <td>0.4</td>
+              <td>2</td>
+              <td>61</td>
+              <td class="O3_8h_dn">69</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>顺义新城</td>
+              <td>28</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>11</td>
+              <td>27</td>
+              <td>0.3</td>
+              <td>31</td>
+              <td>87</td>
+              <td class="O3_8h_dn">105</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>怀柔镇</td>
+              <td>39</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>16</td>
+              <td>39</td>
+              <td>0.4</td>
+              <td>19</td>
+              <td>90</td>
+              <td class="O3_8h_dn">102</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>昌平镇</td>
+              <td>47</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>17</td>
+              <td>47</td>
+              <td>0.4</td>
+              <td>40</td>
+              <td>64</td>
+              <td class="O3_8h_dn">78</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>奥体中心</td>
+              <td>36</td>
+              <td>优</td>
+
+                <td>_</td>
+
+              <td>16</td>
+              <td>36</td>
+              <td>0.4</td>
+              <td>38</td>
+              <td>_</td>
+              <td class="O3_8h_dn">69</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>古城</td>
+              <td>57</td>
+              <td>良</td>
+
+                  <td>颗粒物(PM10)</td>
+
+              <td>21</td>
+              <td>63</td>
+              <td>0.3</td>
+              <td>30</td>
+              <td>92</td>
+              <td class="O3_8h_dn">99</td>
+              <td>2</td>
+            </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="span12 history">
+    <div id="history_chart" data-highcharts-chart="0"><div class="highcharts-container" id="highcharts-0" style="position: relative; overflow: hidden; width: 1170px; height: 400px; text-align: left; line-height: normal; z-index: 0; font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif; font-size: 12px;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1170" height="400"><desc>Created with Highcharts 3.0.1</desc><defs><lineargradient x1="0" y1="0" x2="0" y2="1" id="highcharts-1"><stop offset="0" stop-color="rgb(96,96,96)" stop-opacity="0.8"></stop><stop offset="1" stop-color="rgb(16,16,16)" stop-opacity="0.8"></stop></lineargradient><clippath id="highcharts-2"><rect rx="0" ry="0" fill="none" x="0" y="0" width="9999" height="400"></rect></clippath><lineargradient x1="0" y1="0" x2="0" y2="1" id="highcharts-3"><stop offset="0" stop-color="rgb(96, 96, 96)" stop-opacity="1"></stop><stop offset="1" stop-color="rgb(16, 16, 16)" stop-opacity="1"></stop></lineargradient><clippath id="highcharts-4"><rect fill="none" x="0" y="0" width="966" height="284"></rect></clippath><lineargradient x1="0" y1="0" x2="0" y2="1" id="highcharts-7"><stop offset="0.4" stop-color="#606060" stop-opacity="1"></stop><stop offset="0.6" stop-color="#333333" stop-opacity="1"></stop></lineargradient></defs><rect rx="15" ry="15" fill="url(#highcharts-3)" x="0" y="0" width="1170" height="400"></rect><path fill="none" d="M 74 340.5 L 1040 340.5" stroke="#808080" stroke-width="1"></path><g class="highcharts-button" style="cursor:default;" title="Chart context menu" stroke-linecap="round" transform="translate(1136,10)"><title>Chart context menu</title><rect rx="2" ry="2" fill="url(#highcharts-7)" x="0.5" y="0.5" width="24" height="22" stroke="#000000" stroke-width="1"></rect><path fill="#E0E0E0" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" stroke="#DDDDDD" stroke-width="3" zIndex="1"></path><text x="0" y="13" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:black;fill:black;" zIndex="1"></text></g><g class="highcharts-grid" zIndex="1"></g><g class="highcharts-grid" zIndex="1"><path fill="none" d="M 74 283.5 L 1040 283.5" stroke-opacity="0.1" stroke="rgb(255,255,255)" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 74 226.5 L 1040 226.5" stroke-opacity="0.1" stroke="rgb(255,255,255)" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 74 169.5 L 1040 169.5" stroke-opacity="0.1" stroke="rgb(255,255,255)" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 74 112.5 L 1040 112.5" stroke-opacity="0.1" stroke="rgb(255,255,255)" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 74 55.5 L 1040 55.5" stroke-opacity="0.1" stroke="rgb(255,255,255)" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 74 339.5 L 1040 339.5" stroke-opacity="0.1" stroke="rgb(255,255,255)" stroke-width="1" zIndex="1" opacity="1"></path></g><g class="highcharts-axis" zIndex="2"><path fill="none" d="M 154.5 340 L 154.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 194.5 340 L 194.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 234.5 340 L 234.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 274.5 340 L 274.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 315.5 340 L 315.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 355.5 340 L 355.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 395.5 340 L 395.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 435.5 340 L 435.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 476.5 340 L 476.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 516.5 340 L 516.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 556.5 340 L 556.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 596.5 340 L 596.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 637.5 340 L 637.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 677.5 340 L 677.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 717.5 340 L 717.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 757.5 340 L 757.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 798.5 340 L 798.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 838.5 340 L 838.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 878.5 340 L 878.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 918.5 340 L 918.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 959.5 340 L 959.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 999.5 340 L 999.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 1039.5 340 L 1039.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 113.5 340 L 113.5 345" stroke="#999" stroke-width="1" opacity="1"></path><path fill="none" d="M 74.5 340 L 74.5 345" stroke="#999" stroke-width="1"></path><path fill="none" d="M 74 339.5 L 1040 339.5" stroke="#999" stroke-width="1" zIndex="7" visibility="visible"></path></g><g class="highcharts-axis" zIndex="2"><text x="31.34375" y="197.5" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#AAA;font-weight:bold;font:14px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#AAA;" zIndex="7" text-anchor="middle" transform="rotate(270 31.34375 197.5)" visibility="visible"><tspan x="31.34375">数据来源于国家环境保护部网站</tspan></text></g><g class="highcharts-series-group" zIndex="3"><g class="highcharts-series" visibility="visible" zIndex="0.1" transform="translate(74,55) scale(1 1)" clip-path="url(#highcharts-4)"><path fill="none" d="M 20.125 260.5 L 60.375 261.6 L 100.625 263.3 L 140.875 265.1 L 181.125 266.8 L 221.375 270.2 L 261.625 271.3 L 301.875 271.9 L 342.125 270.2 L 382.375 269 L 422.625 266.2 L 462.875 265.1 L 503.125 266.2 L 543.375 269.6 L 583.625 270.8 L 623.875 269 L 664.125 267.9 L 704.375 266.2 L 744.625 263.9 L 784.875 262.2 L 825.125 260.5 L 865.375 259.9 L 905.625 259.9 L 945.875 258.2" stroke="black" stroke-width="5" zIndex="1" isShadow="true" stroke-opacity="0.049999999999999996" transform="translate(1, 1)"></path><path fill="none" d="M 20.125 260.5 L 60.375 261.6 L 100.625 263.3 L 140.875 265.1 L 181.125 266.8 L 221.375 270.2 L 261.625 271.3 L 301.875 271.9 L 342.125 270.2 L 382.375 269 L 422.625 266.2 L 462.875 265.1 L 503.125 266.2 L 543.375 269.6 L 583.625 270.8 L 623.875 269 L 664.125 267.9 L 704.375 266.2 L 744.625 263.9 L 784.875 262.2 L 825.125 260.5 L 865.375 259.9 L 905.625 259.9 L 945.875 258.2" stroke="black" stroke-width="3" zIndex="1" isShadow="true" stroke-opacity="0.09999999999999999" transform="translate(1, 1)"></path><path fill="none" d="M 20.125 260.5 L 60.375 261.6 L 100.625 263.3 L 140.875 265.1 L 181.125 266.8 L 221.375 270.2 L 261.625 271.3 L 301.875 271.9 L 342.125 270.2 L 382.375 269 L 422.625 266.2 L 462.875 265.1 L 503.125 266.2 L 543.375 269.6 L 583.625 270.8 L 623.875 269 L 664.125 267.9 L 704.375 266.2 L 744.625 263.9 L 784.875 262.2 L 825.125 260.5 L 865.375 259.9 L 905.625 259.9 L 945.875 258.2" stroke="black" stroke-width="1" zIndex="1" isShadow="true" stroke-opacity="0.15" transform="translate(1, 1)"></path><path fill="none" d="M 20.125 260.5 L 60.375 261.6 L 100.625 263.3 L 140.875 265.1 L 181.125 266.8 L 221.375 270.2 L 261.625 271.3 L 301.875 271.9 L 342.125 270.2 L 382.375 269 L 422.625 266.2 L 462.875 265.1 L 503.125 266.2 L 543.375 269.6 L 583.625 270.8 L 623.875 269 L 664.125 267.9 L 704.375 266.2 L 744.625 263.9 L 784.875 262.2 L 825.125 260.5 L 865.375 259.9 L 905.625 259.9 L 945.875 258.2" stroke="#99CC66" stroke-width="2" zIndex="1"></path></g><g class="highcharts-markers" visibility="visible" zIndex="0.1" transform="translate(74,55) scale(1 1)" clip-path="none"><path fill="#99CC66" d="M 945.875 254.2 C 951.203 254.2 951.203 262.2 945.875 262.2 C 940.547 262.2 940.547 254.2 945.875 254.2 Z"></path><path fill="#99CC66" d="M 905.625 255.89999999999998 C 910.953 255.89999999999998 910.953 263.9 905.625 263.9 C 900.297 263.9 900.297 255.89999999999998 905.625 255.89999999999998 Z"></path><path fill="#99CC66" d="M 865.375 255.89999999999998 C 870.703 255.89999999999998 870.703 263.9 865.375 263.9 C 860.047 263.9 860.047 255.89999999999998 865.375 255.89999999999998 Z"></path><path fill="#99CC66" d="M 825.125 256.5 C 830.453 256.5 830.453 264.5 825.125 264.5 C 819.797 264.5 819.797 256.5 825.125 256.5 Z"></path><path fill="#99CC66" d="M 784.875 258.2 C 790.203 258.2 790.203 266.2 784.875 266.2 C 779.547 266.2 779.547 258.2 784.875 258.2 Z"></path><path fill="#99CC66" d="M 744.625 259.9 C 749.953 259.9 749.953 267.9 744.625 267.9 C 739.297 267.9 739.297 259.9 744.625 259.9 Z"></path><path fill="#99CC66" d="M 704.375 262.2 C 709.703 262.2 709.703 270.2 704.375 270.2 C 699.047 270.2 699.047 262.2 704.375 262.2 Z"></path><path fill="#99CC66" d="M 664.125 263.9 C 669.453 263.9 669.453 271.9 664.125 271.9 C 658.797 271.9 658.797 263.9 664.125 263.9 Z"></path><path fill="#99CC66" d="M 623.875 265 C 629.203 265 629.203 273 623.875 273 C 618.547 273 618.547 265 623.875 265 Z"></path><path fill="#99CC66" d="M 583.625 266.8 C 588.953 266.8 588.953 274.8 583.625 274.8 C 578.297 274.8 578.297 266.8 583.625 266.8 Z"></path><path fill="#99CC66" d="M 543.375 265.6 C 548.703 265.6 548.703 273.6 543.375 273.6 C 538.047 273.6 538.047 265.6 543.375 265.6 Z"></path><path fill="#99CC66" d="M 503.125 262.2 C 508.453 262.2 508.453 270.2 503.125 270.2 C 497.797 270.2 497.797 262.2 503.125 262.2 Z"></path><path fill="#99CC66" d="M 462.875 261.1 C 468.203 261.1 468.203 269.1 462.875 269.1 C 457.547 269.1 457.547 261.1 462.875 261.1 Z"></path><path fill="#99CC66" d="M 422.625 262.2 C 427.953 262.2 427.953 270.2 422.625 270.2 C 417.297 270.2 417.297 262.2 422.625 262.2 Z"></path><path fill="#99CC66" d="M 382.375 265 C 387.703 265 387.703 273 382.375 273 C 377.047 273 377.047 265 382.375 265 Z"></path><path fill="#99CC66" d="M 342.125 266.2 C 347.453 266.2 347.453 274.2 342.125 274.2 C 336.797 274.2 336.797 266.2 342.125 266.2 Z"></path><path fill="#99CC66" d="M 301.875 267.9 C 307.203 267.9 307.203 275.9 301.875 275.9 C 296.547 275.9 296.547 267.9 301.875 267.9 Z" stroke-width="1"></path><path fill="#99CC66" d="M 261.625 267.3 C 266.953 267.3 266.953 275.3 261.625 275.3 C 256.297 275.3 256.297 267.3 261.625 267.3 Z" stroke-width="1"></path><path fill="#99CC66" d="M 221.375 266.2 C 226.703 266.2 226.703 274.2 221.375 274.2 C 216.047 274.2 216.047 266.2 221.375 266.2 Z"></path><path fill="#99CC66" d="M 181.125 262.8 C 186.453 262.8 186.453 270.8 181.125 270.8 C 175.797 270.8 175.797 262.8 181.125 262.8 Z"></path><path fill="#99CC66" d="M 140.875 261.1 C 146.203 261.1 146.203 269.1 140.875 269.1 C 135.547 269.1 135.547 261.1 140.875 261.1 Z"></path><path fill="#99CC66" d="M 100.625 259.3 C 105.953 259.3 105.953 267.3 100.625 267.3 C 95.297 267.3 95.297 259.3 100.625 259.3 Z"></path><path fill="#99CC66" d="M 60.375 257.6 C 65.703 257.6 65.703 265.6 60.375 265.6 C 55.047 265.6 55.047 257.6 60.375 257.6 Z"></path><path fill="#99CC66" d="M 20.125 256.5 C 25.453 256.5 25.453 264.5 20.125 264.5 C 14.797 264.5 14.797 256.5 20.125 256.5 Z"></path><path fill="none" d="M 10.125 260.5 L 20.125 260.5 L 60.375 261.6 L 100.625 263.3 L 140.875 265.1 L 181.125 266.8 L 221.375 270.2 L 261.625 271.3 L 301.875 271.9 L 342.125 270.2 L 382.375 269 L 422.625 266.2 L 462.875 265.1 L 503.125 266.2 L 543.375 269.6 L 583.625 270.8 L 623.875 269 L 664.125 267.9 L 704.375 266.2 L 744.625 263.9 L 784.875 262.2 L 825.125 260.5 L 865.375 259.9 L 905.625 259.9 L 945.875 258.2 L 955.875 258.2" class="highcharts-tracker highcharts-tracker" stroke-linejoin="round" visibility="visible" stroke-opacity="0.0001" stroke="rgb(192,192,192)" stroke-width="22" zIndex="2" style=""></path></g></g><text x="565" y="25" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:16px;color:#FFF;font:20px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#FFF;" text-anchor="middle" class="highcharts-title" zIndex="4"><tspan x="565">北京 最近24小时空气质量指数(AQI)趋势</tspan></text><text x="565" y="40" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#DDD;font:14px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#DDD;" text-anchor="middle" class="highcharts-subtitle" zIndex="4"><tspan x="565">http://www.pm25.in</tspan></text><g class="highcharts-data-labels" visibility="visible" zIndex="6" transform="translate(74,55) scale(1 1)"><g zIndex="1" style="cursor:default;" transform="translate(10,237)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">43</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(50,238)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">41</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(90,239)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">38</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(130,241)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">35</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(171,243)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">32</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(211,246)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">26</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(251,247)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">24</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(291,248)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">23</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(331,246)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">26</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(372,245)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">28</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(412,242)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">33</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(452,241)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">35</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(493,242)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">33</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(533,246)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">27</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(573,247)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">25</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(613,245)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">28</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(653,244)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">30</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(694,242)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">33</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(734,240)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">37</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(774,238)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">40</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(815,237)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">43</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(855,236)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">44</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(895,236)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">44</tspan></text></g><g zIndex="1" style="cursor:default;" transform="translate(935,234)" visibility="inherit"><text x="3" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#CCC;line-height:14px;fill:#CCC;" zIndex="1"><tspan x="3">47</tspan></text></g></g><g class="highcharts-legend" zIndex="7" transform="translate(1099,110)"><g zIndex="1" clip-path="url(#highcharts-2)"><g><g class="highcharts-legend-item" zIndex="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#99CC66" stroke-width="2"></path><path fill="#99CC66" d="M 8 7 C 13.328 7 13.328 15 8 15 C 2.6719999999999997 15 2.6719999999999997 7 8 7 Z"></path><text x="21" y="15" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;cursor:pointer;color:#CCC;fill:#CCC;" text-anchor="start" zIndex="2"><tspan x="21">AQI</tspan></text></g></g></g></g><g class="highcharts-axis-labels" zIndex="7"><text x="94.125" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="94.125">20时</tspan></text><text x="134.375" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="134.375">21时</tspan></text><text x="174.625" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="174.625">22时</tspan></text><text x="214.875" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="214.875">23时</tspan></text><text x="255.125" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="255.125">00时</tspan></text><text x="295.375" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="295.375">01时</tspan></text><text x="335.625" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="335.625">02时</tspan></text><text x="375.875" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="375.875">03时</tspan></text><text x="416.125" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="416.125">04时</tspan></text><text x="456.375" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="456.375">05时</tspan></text><text x="496.625" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="496.625">06时</tspan></text><text x="536.875" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="536.875">07时</tspan></text><text x="577.125" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="577.125">08时</tspan></text><text x="617.375" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="617.375">09时</tspan></text><text x="657.625" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="657.625">10时</tspan></text><text x="697.875" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="697.875">11时</tspan></text><text x="738.125" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="738.125">12时</tspan></text><text x="778.375" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="778.375">13时</tspan></text><text x="818.625" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="818.625">14时</tspan></text><text x="858.875" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="858.875">15时</tspan></text><text x="899.125" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="899.125">16时</tspan></text><text x="939.375" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="939.375">17时</tspan></text><text x="979.625" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="979.625">18时</tspan></text><text x="1019.875" y="354" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:20px;color:#999;cursor:default;line-height:14px;font-weight:bold;font:12px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#999;" text-anchor="middle" opacity="1"><tspan x="1019.875">19时</tspan></text></g><g class="highcharts-axis-labels" zIndex="7"><text x="66" y="343.6" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:463px;color:#999;cursor:default;line-height:14px;font-weight:bold;fill:#999;" text-anchor="end" opacity="1"><tspan x="66">0</tspan></text><text x="66" y="286.6" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:463px;color:#999;cursor:default;line-height:14px;font-weight:bold;fill:#999;" text-anchor="end" opacity="1"><tspan x="66">100</tspan></text><text x="66" y="229.6" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:463px;color:#999;cursor:default;line-height:14px;font-weight:bold;fill:#999;" text-anchor="end" opacity="1"><tspan x="66">200</tspan></text><text x="66" y="172.60000000000002" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:463px;color:#999;cursor:default;line-height:14px;font-weight:bold;fill:#999;" text-anchor="end" opacity="1"><tspan x="66">300</tspan></text><text x="66" y="115.60000000000002" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:463px;color:#999;cursor:default;line-height:14px;font-weight:bold;fill:#999;" text-anchor="end" opacity="1"><tspan x="66">400</tspan></text><text x="66" y="58.6" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:463px;color:#999;cursor:default;line-height:14px;font-weight:bold;fill:#999;" text-anchor="end" opacity="1"><tspan x="66">500</tspan></text></g><g class="highcharts-tooltip" zIndex="8" style="cursor:default;padding:0;white-space:nowrap;" visibility="visible" opacity="1" transform="translate(263,278)"><rect rx="3" ry="3" fill="none" x="0" y="0" width="62" height="50" isShadow="true" stroke="black" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></rect><rect rx="3" ry="3" fill="none" x="0" y="0" width="62" height="50" isShadow="true" stroke="black" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></rect><rect rx="3" ry="3" fill="none" x="0" y="0" width="62" height="50" isShadow="true" stroke="black" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></rect><rect rx="3" ry="3" fill="url(#highcharts-1)" x="0" y="0" width="62" height="50" anchorX="73.69366119663334" anchorY="48.0009765625"></rect><text x="8" y="21" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#FFF;fill:#FFF;" zIndex="1"><tspan style="font-size: 10px" x="8">02时</tspan><tspan style="fill:#99CC66" x="8" dy="16">AQI</tspan><tspan dx="0">: </tspan><tspan style="font-weight:bold" dx="0">24</tspan></text></g><text x="20" y="385" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:9px;cursor:pointer;color:#AAA;font:14px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;fill:#AAA;" text-anchor="start" zIndex="8"><tspan x="20">数据更新时间：2017-03-27 19:00</tspan></text></svg></div></div>
+  </div>
+
+    <div class="footer">
+      <p>
+        Copyright © 2013-2014<a href="http://www.bestapp.us/" target="_blank"> BestApp工作室.</a> All Rights Reserved.
+      </p>
+      <p>
+        <a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备13012270号-6</a>
+      </p>
+    </div>
+    <div id="back-top" style="display: block;">
+      <a href="http://www.pm25.in/beijing#top"><span></span>回到顶部</a>
+    </div>
+  </div>
+
+
+</body></html>
